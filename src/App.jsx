@@ -1,7 +1,7 @@
 import  React from "react"
 import Home from "./oldalak/Home"
-import Mermesek from "./Mermesek"
-import Ermesek from "./Ermesek"
+import Mermesek from "./oldalak/Mermesek"
+import Ermesek from "./oldalak/Ermesek"
 import Navbar from "./Navbar"
 
 import {Route,Routes} from 'react-dom'
@@ -17,6 +17,11 @@ function App() {
     <>
       <div>
         <h1>covid</h1>
+        <Routes>
+          <Route path= "/" element={<Home/>}/>
+          <Route path= "/mermesek" element={<Mermesek/>}/>
+          <Route path= "/ermesek" element={<Ermesek/>}/>
+        </Routes>
       </div>
         
           
