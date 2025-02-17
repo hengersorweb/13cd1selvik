@@ -8,7 +8,7 @@ const Navbar=(()=>{
             <nav>
                 <Link to='/' >Főoldal</Link>
                 <NavLink to='/ermesek'>Az olimpia éremesei</NavLink>
-                <Navlink to='/mermesek'>Az olimpia magyar érmesei</Navlink>
+                <NavLink to='/mermesek'>Az olimpia magyar érmesei</NavLink>
             </nav>
         </div>
     )
