@@ -11,12 +11,13 @@ import 'tachyons'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <div>
         <h1>covid</h1>
+        <Navbar/>
         <Routes>
           <Route path= "/" element={<Home/>}/>
           <Route path= "/mermesek" element={<Mermesek/>}/>
